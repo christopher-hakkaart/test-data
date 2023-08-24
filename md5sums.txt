@@ -1,0 +1,15 @@
+917d00995a4fddd6014f7a462be89eeb  ./demo.bam
+2ae038c036b6f61f1773373797ca826b  ./demo.bam.bai
+8f458515c59ca5282873450f1ab03c0b  ./demo.bed
+112acccc31aafde9970f97ed5afb05f1  ./demo.fasta
+624d95f069ec2038acfc467580e85db9  ./demo.fasta.fai
+86d75a85add01f940c4d5abc4bd596b9  ./human_GRCh38_no_alt_analysis_set.trf.bed
+d41d8cd98f00b204e9800998ecf8427e  ./md5sums.txt
+e1f2f31b1e1527c827bbfa148674cc24  ./ont_r104_e81_sup_g5015/full_alignment.data-00000-of-00002
+f410471f15780f84d97d12f7c844a349  ./ont_r104_e81_sup_g5015/full_alignment.data-00001-of-00002
+b40b7cde1ef3ac4c4ec86b902892a37e  ./ont_r104_e81_sup_g5015/full_alignment.index
+236ac3ece2c8309fa2bca736ca0d42f6  ./ont_r104_e81_sup_g5015/pileup.data-00000-of-00002
+6f9c64e500c579b4c63d2191a8a81cee  ./ont_r104_e81_sup_g5015/pileup.data-00001-of-00002
+9dc8d3de96bc0ca721d98a949addae84  ./ont_r104_e81_sup_g5015/pileup.index
+345ef56636c62290515e4b8338ff2aa4  ./README
+56cc142825a6b0437cf044c32ce7c9e1  ./VERSION

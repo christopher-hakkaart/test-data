@@ -1,0 +1,22 @@
+# gm24385_q20_2021.10/chr20.v3
+
+This is a subset (chr20) of the October 2021 GM24385 Q20+ Simplex Dataset (`gm24385_q20_2021.10`)
+used for testing the combined wf-human-variation Nextflow pipeline, release 3.
+
+You can check the integrity of your download with the `md5sum` command (if available):
+
+    md5sum -c md5sums.txt
+
+An unaligned BAM (uBAM) can be generated with the following command:
+
+    samtools bam2fq demo.bam -t | samtools import -T '*' - -o demo.ubam --output-fmt bam
+
+The tandem repeat annotation BED was downloaded from the Sniffles2 github repository:
+https://github.com/fritzsedlazeck/Sniffles/tree/master/annotations
+
+For more information on this dataset and how to obtain the full contents, please read
+our blog post documenting this open data release: https://labs.epi2me.io/gm24385_q20_2021.10/
+
+## Updates
+- v3, 2022-09-28: Removed non-chr20 SQ lines from BAM to prevent cram_get_ref error
+- v2, 2022-07-25: Added tandem repeat annotation BED and guidance for creating uBAM
